@@ -11,6 +11,19 @@
 		FE5816D42AA7F4A200001E93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816D32AA7F4A200001E93 /* ContentView.swift */; };
 		FE5816D62AA7F4A300001E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5816D52AA7F4A300001E93 /* Assets.xcassets */; };
 		FE5816D92AA7F4A300001E93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE5816D82AA7F4A300001E93 /* Preview Assets.xcassets */; };
+		FE5816E12AA7F51100001E93 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FE5816E02AA7F51100001E93 /* SDWebImageSwiftUI */; };
+		FE5816E42AA7F5DE00001E93 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816E32AA7F5DE00001E93 /* Credentials.swift */; };
+		FE5816E92AA7F63A00001E93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816E82AA7F63A00001E93 /* HomeView.swift */; };
+		FE5816EB2AA7F6F200001E93 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816EA2AA7F6F200001E93 /* HomeViewModel.swift */; };
+		FE5816ED2AA7F81000001E93 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816EC2AA7F81000001E93 /* CharactersView.swift */; };
+		FE5816EF2AA8099600001E93 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816EE2AA8099600001E93 /* Character.swift */; };
+		FE5816F22AA80DEB00001E93 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816F12AA80DEB00001E93 /* Logger.swift */; };
+		FE5816F42AA8139C00001E93 /* CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816F32AA8139C00001E93 /* CharacterRowView.swift */; };
+		FE5816F62AA8153E00001E93 /* CharacterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816F52AA8153E00001E93 /* CharacterMock.swift */; };
+		FE5816FA2AA81BE200001E93 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816F92AA81BE200001E93 /* WebView.swift */; };
+		FE5816FC2AA8B33800001E93 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816FB2AA8B33800001E93 /* Comics.swift */; };
+		FE5816FE2AA8B60400001E93 /* ComicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816FD2AA8B60400001E93 /* ComicsView.swift */; };
+		FE5817002AA8B7EE00001E93 /* ComicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5816FF2AA8B7EE00001E93 /* ComicRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		FE5816D32AA7F4A200001E93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE5816D52AA7F4A300001E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE5816D82AA7F4A300001E93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE5816E32AA7F5DE00001E93 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		FE5816E82AA7F63A00001E93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FE5816EA2AA7F6F200001E93 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FE5816EC2AA7F81000001E93 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		FE5816EE2AA8099600001E93 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FE5816F12AA80DEB00001E93 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FE5816F32AA8139C00001E93 /* CharacterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRowView.swift; sourceTree = "<group>"; };
+		FE5816F52AA8153E00001E93 /* CharacterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMock.swift; sourceTree = "<group>"; };
+		FE5816F72AA81AE900001E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE5816F92AA81BE200001E93 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FE5816FB2AA8B33800001E93 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		FE5816FD2AA8B60400001E93 /* ComicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsView.swift; sourceTree = "<group>"; };
+		FE5816FF2AA8B7EE00001E93 /* ComicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5816E12AA7F51100001E93 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +78,12 @@
 		FE5816D02AA7F4A200001E93 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				FE5816F72AA81AE900001E93 /* Info.plist */,
+				FE5816E52AA7F61C00001E93 /* Models */,
+				FE5816E62AA7F62200001E93 /* Views */,
+				FE5816E72AA7F62800001E93 /* ViewModels */,
+				FE5816E22AA7F5D100001E93 /* API */,
+				FE5816F02AA80DDD00001E93 /* Utils */,
 				FE5816D12AA7F4A200001E93 /* MarvelApp.swift */,
 				FE5816D32AA7F4A200001E93 /* ContentView.swift */,
 				FE5816D52AA7F4A300001E93 /* Assets.xcassets */,
@@ -65,6 +98,53 @@
 				FE5816D82AA7F4A300001E93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE5816E22AA7F5D100001E93 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FE5816E32AA7F5DE00001E93 /* Credentials.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FE5816E52AA7F61C00001E93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE5816EE2AA8099600001E93 /* Character.swift */,
+				FE5816FB2AA8B33800001E93 /* Comics.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE5816E62AA7F62200001E93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE5816E82AA7F63A00001E93 /* HomeView.swift */,
+				FE5816EC2AA7F81000001E93 /* CharactersView.swift */,
+				FE5816F32AA8139C00001E93 /* CharacterRowView.swift */,
+				FE5816FF2AA8B7EE00001E93 /* ComicRowView.swift */,
+				FE5816F92AA81BE200001E93 /* WebView.swift */,
+				FE5816FD2AA8B60400001E93 /* ComicsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE5816E72AA7F62800001E93 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FE5816EA2AA7F6F200001E93 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE5816F02AA80DDD00001E93 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE5816F12AA80DEB00001E93 /* Logger.swift */,
+				FE5816F52AA8153E00001E93 /* CharacterMock.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = Marvel;
+			packageProductDependencies = (
+				FE5816E02AA7F51100001E93 /* SDWebImageSwiftUI */,
+			);
 			productName = Marvel;
 			productReference = FE5816CE2AA7F4A200001E93 /* Marvel.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = FE5816C52AA7F4A200001E93;
+			packageReferences = (
+				FE5816DF2AA7F51100001E93 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = FE5816CF2AA7F4A200001E93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +223,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5816E42AA7F5DE00001E93 /* Credentials.swift in Sources */,
+				FE5816FE2AA8B60400001E93 /* ComicsView.swift in Sources */,
 				FE5816D42AA7F4A200001E93 /* ContentView.swift in Sources */,
+				FE5816EF2AA8099600001E93 /* Character.swift in Sources */,
+				FE5816ED2AA7F81000001E93 /* CharactersView.swift in Sources */,
+				FE5816E92AA7F63A00001E93 /* HomeView.swift in Sources */,
+				FE5816FC2AA8B33800001E93 /* Comics.swift in Sources */,
+				FE5816F62AA8153E00001E93 /* CharacterMock.swift in Sources */,
+				FE5816EB2AA7F6F200001E93 /* HomeViewModel.swift in Sources */,
+				FE5816F42AA8139C00001E93 /* CharacterRowView.swift in Sources */,
 				FE5816D22AA7F4A200001E93 /* MarvelApp.swift in Sources */,
+				FE5816F22AA80DEB00001E93 /* Logger.swift in Sources */,
+				FE5816FA2AA81BE200001E93 /* WebView.swift in Sources */,
+				FE5817002AA8B7EE00001E93 /* ComicRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +368,7 @@
 				DEVELOPMENT_TEAM = NT7J23RCPK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +398,7 @@
 				DEVELOPMENT_TEAM = NT7J23RCPK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE5816DF2AA7F51100001E93 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE5816E02AA7F51100001E93 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE5816DF2AA7F51100001E93 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE5816C62AA7F4A200001E93 /* Project object */;
 }
